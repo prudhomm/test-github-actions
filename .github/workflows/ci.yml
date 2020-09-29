@@ -31,3 +31,7 @@ jobs:
     - name: Test
       run: |
         python ot.py
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ot.py
+        path: ot.py
